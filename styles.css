@@ -666,6 +666,20 @@ body {
     transform: translateX(-5px);
 }
 
+/* Category Detail Header */
+.category-detail-header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.category-detail-header .section-title {
+    margin-bottom: 15px;
+}
+
+.category-detail-header .section-subtitle {
+    margin-bottom: 30px;
+}
+
 /* View Controls */
 .view-controls {
     display: flex;
