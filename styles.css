@@ -703,6 +703,43 @@ body {
     gap: 20px;
 }
 
+/* Link Cards */
+.link-card {
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 30px;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.link-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+}
+
+.link-card h4 {
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+    color: #e94560;
+}
+
+.link-card p {
+    margin-bottom: 15px;
+    opacity: 0.8;
+}
+
+.link-warning {
+    background: rgba(255, 193, 7, 0.1);
+    border: 1px solid #ffc107;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 15px 0;
+    font-size: 0.9rem;
+    color: #ffc107;
+    text-align: center;
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
     .nav-menu {

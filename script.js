@@ -106,73 +106,154 @@ function loadCategories() {
     categories = [
         {
             id: 'proxy',
-            name: 'Proxy Sites',
+            name: 'PROXY SITES',
             icon: '🛡️',
             count: 18,
             description: 'Secure proxy services to bypass restrictions',
             links: [
-                { name: 'Proxy 1', url: '#', description: 'Fast and secure proxy' },
-                { name: 'Proxy 2', url: '#', description: 'Anonymous browsing' },
-                { name: 'Proxy 3', url: '#', description: 'Unblock any site' }
+                { name: 'TRUFFLED', url: 'https://staffhiring.metropolitanstaffingsolutions.com/', description: 'Fast and secure proxy', warning: null },
+                { name: 'GALAXY V6', url: 'https://call.it.smasesorias.cl/', description: 'Galaxy proxy service', warning: null },
+                { name: 'DOGEUB', url: 'https://classlink-ixl-learning.epic.c01.kr.cdn.cloudflare.net/', description: 'Doge themed proxy', warning: null },
+                { name: 'INTERSTELLAR', url: 'https://oh67.asistdoc.ar/', description: 'Space themed proxy', warning: null },
+                { name: 'SPACE', url: 'https://academy.canadianlocomotivelogistics.ca/', description: 'Space proxy service', warning: null },
+                { name: 'RAMMERHEAD', url: 'https://shared.learn.acepod.com/', description: 'Rammerhead proxy', warning: null },
+                { name: 'UTOPIA', url: 'https://login.i-ready.com.a.noviolencia.ar/', description: 'Utopia proxy service', warning: null },
+                { name: 'ENDIS', url: 'https://endis.rest/', description: 'Endis proxy', warning: null },
+                { name: 'OVERCLOAKED', url: 'https://cjklakljfsdfdfe.cxvjlkewdfw.1000pizzas.com', description: 'Overcloaked proxy', warning: null },
+                { name: 'BOREDOM', url: 'https://playernation.canalspa.cl/', description: 'Boredom killer proxy', warning: null },
+                { name: 'GLINT', url: 'https://top100coolbugfacts.martinwguy.net', description: 'Glint proxy service', warning: null },
+                { name: 'ABYSS', url: 'https://thetotalabyssboys.vercel.app/', description: 'Abyss proxy', warning: null },
+                { name: 'GHOST', url: 'https://poemsforkids.vseesa.martinwguy.net', description: 'Ghost proxy', warning: null },
+                { name: 'QUASAR', url: 'https://hoverfc.com/', description: 'Quasar proxy', warning: null },
+                { name: 'ROSIN', url: 'https://rosin.vcsa.national-birdshow.com/', description: 'Rosin proxy', warning: null },
+                { name: 'UNIUB', url: 'https://uniub.srvdns.de/', description: 'Uniub proxy', warning: null },
+                { name: 'BROMINE', url: 'https://nativeamericanhistory.netlify.app/', description: 'Bromine proxy', warning: null },
+                { name: 'LUNAR', url: 'https://book.today.hotelconsuladoinn.com/', description: 'Lunar proxy', warning: null }
             ]
         },
         {
             id: 'games',
-            name: 'Game Links',
+            name: 'GAME LINKS',
             icon: '🎮',
             count: 20,
             description: 'Play your favorite games online without limits',
             links: [
-                { name: 'Game Hub', url: '#', description: '1000+ online games' },
-                { name: 'Arcade Classics', url: '#', description: 'Retro gaming' },
-                { name: 'Multiplayer Arena', url: '#', description: 'Play with friends' }
+                { name: 'COMPLETELY SCIENCE', url: 'http://d1tmbzjih4bfq6.cloudfront.net', description: 'Science games collection', warning: '⚠ WARNING: HTTP, No detected malware' },
+                { name: 'PETEZAH', url: 'https://totallynotgames.seclogistic.com/', description: 'Petezah games', warning: null },
+                { name: 'RED EXPLOIT CORNER', url: 'http://bull33.infotechnology.com', description: 'Exploit games', warning: '⚠ WARNING: HTTP, No detected malware' },
+                { name: 'DUCK', url: 'https://quack-learn.web.app/', description: 'Duck games', warning: null },
+                { name: 'FROGIESARCADE', url: 'https://frogieeisback-edu.zone.id/', description: 'Frogie arcade games', warning: null },
+                { name: 'VAPOR V4', url: 'https://ge-lao-shi.global.ssl.fastly.net/', description: 'Vapor V4 games', warning: null },
+                { name: 'VAPOR V3', url: 'https://gelaoshi.global.ssl.fastly.net/', description: 'Vapor V3 games', warning: null },
+                { name: 'BROS GAMES', url: 'https://nbadebate.com/', description: 'Bros collection', warning: null },
+                { name: 'GOFLO GAMES', url: 'https://goflogames.github.io/', description: 'Goflo games hub', warning: null },
+                { name: 'CCPORTED', url: 'https://d1yh00vn2fvto7.cloudfront.net/', description: 'CC ported games', warning: null },
+                { name: 'EXTREMEMATH', url: 'https://extrememath.freetls.fastly.net/', description: 'Extreme math games', warning: null },
+                { name: 'NOWGG', url: 'http://198.ip.nowgg.fun', description: 'Now.gg games', warning: '⚠ WARNING: HTTP, No detected malware' },
+                { name: 'EAGLECRAFT', url: 'https://client.eaglercraft.win/eagler-files/wasm/1.8/Main/index.html', description: 'Eaglercraft Minecraft', warning: null },
+                { name: 'JORDANS MATH WORK', url: 'https://subscribevseesa.infotechnology.com/', description: 'Math work games', warning: null },
+                { name: 'CLASSROOM GAMES', url: 'https://dnrweqffuwjtx.cloudfront.net/', description: 'Classroom games', warning: null },
+                { name: 'ALL GAMES', url: 'https://nb-ga.github.io/games-site/', description: 'All games collection', warning: null },
+                { name: 'SYCES GAME SHACK', url: 'https://subkeys.github.io/sayeo/index.html', description: 'Syces games', warning: null },
+                { name: 'TOPVAZ (BASKET RANDOM EDITION)', url: 'https://basket-random.gitlab.io/category/shooting.htm', description: 'Basket random games', warning: null },
+                { name: 'VOID NETWORK V5', url: 'https://chemistrypracticelab.cencopro.cl/', description: 'Void Network V5', warning: null },
+                { name: 'BROMINE (GAME EDITION)', url: 'https://codeprojects.org/projects/weblab/vm34VbcbEEmT5SAi_UWswHp7q2SBriUipjk4WmuXXJk/', description: 'Bromine games', warning: null }
+            ]
+        },
+        {
+            id: 'live',
+            name: 'LIVE CHANNEL LINK',
+            icon: '📺',
+            count: 1,
+            description: 'Live streaming channels',
+            links: [
+                { name: 'FAMELACK', url: 'https://famelack.com/', description: 'Live streaming', warning: null }
             ]
         },
         {
             id: 'movies',
-            name: 'Movies',
+            name: 'MOVIE WATCHER LINK',
             icon: '🎬',
             count: 7,
             description: 'Stream the latest movies and TV shows',
             links: [
-                { name: 'Movie Stream', url: '#', description: 'Latest releases' },
-                { name: 'TV Series Hub', url: '#', description: 'Binge watch shows' },
-                { name: 'Documentary Zone', url: '#', description: 'Educational content' }
+                { name: 'FMOVIES', url: 'https://fmovieisthegoat.vercel.app/', description: 'Fmovies streaming', warning: null },
+                { name: 'CINEBY', url: 'https://cineby.io/', description: 'Cineby movies', warning: null },
+                { name: 'PLUTO TV', url: 'https://pluto.tv/us/live-tv/68757c45759366af05b3b199', description: 'Pluto TV live', warning: null },
+                { name: 'MAPPLE TV', url: 'https://mappl.tv/', description: 'Mapple TV', warning: null },
+                { name: 'VIDORA', url: 'https://watch.vidora.su/', description: 'Vidora streaming', warning: null },
+                { name: 'MYFLIXER', url: 'https://myflixer.ps/home', description: 'MyFlixer movies', warning: null },
+                { name: 'RIVESTREAM', url: 'https://rivestream.org/', description: 'Rivestream movies', warning: null }
             ]
         },
         {
             id: 'ai',
-            name: 'AI Tools',
+            name: 'AI LINK',
             icon: '🤖',
             count: 5,
             description: 'Access powerful AI tools and chatbots',
             links: [
-                { name: 'Chat Assistant', url: '#', description: 'AI-powered chat' },
-                { name: 'Image Generator', url: '#', description: 'Create AI images' },
-                { name: 'Code Helper', url: '#', description: 'Programming assistant' }
+                { name: 'DUCKDUCKGO AI CHAT', url: 'http://duck.ai', description: 'DuckDuckGo AI chat', warning: '⚠ WARNING: HTTP, No detected malware' },
+                { name: 'DEEPAI', url: 'http://deepai.org', description: 'Deep AI tools', warning: '⚠ WARNING: HTTP, No detected malware' },
+                { name: 'GEMINI', url: 'http://gemini.google.com', description: 'Google Gemini AI', warning: '⚠ WARNING: HTTP, No detected malware' },
+                { name: 'ECOSIA', url: 'https://www.ecosia.org/ai-search/aa4dca27-ff32-4574-82d3-375a05c6eae5?q=if+you+came+from+ULTIMATE+UNBLOCKER+ur+a+w', description: 'Ecosia AI search', warning: null },
+                { name: 'SATURN AI', url: 'https://vcsa-saturn.ciko.ch/pages/ai.html', description: 'Saturn AI tools', warning: null }
             ]
         },
         {
             id: 'music',
-            name: 'Music',
+            name: 'MUSIC LINK',
             icon: '🎵',
             count: 4,
             description: 'Stream music from around the world',
             links: [
-                { name: 'Music Stream', url: '#', description: 'Unlimited music' },
-                { name: 'Podcast Hub', url: '#', description: 'Audio content' },
-                { name: 'Radio Live', url: '#', description: 'Live radio stations' }
+                { name: 'VAPOR (MUSIC)', url: 'https://ge-lao-shi.global.ssl.fastly.net//page/music/index.html', description: 'Vapor music', warning: null },
+                { name: 'PETEZAH (MUSIC)', url: 'https://totallynotgames.seclogistic.com/embed.html#https://byod.petezahgames.com/pages/other/music/', description: 'Petezah music', warning: null },
+                { name: 'GHOST', url: 'https://poemsforkids.vseesa.martinwguy.net/music/', description: 'Ghost music', warning: null },
+                { name: 'TIDAL', url: 'https://tidal.com/', description: 'Tidal music streaming', warning: '⚠ WARNING: Requires signup, No detected malware' }
+            ]
+        },
+        {
+            id: 'radio',
+            name: 'RADIO LINK',
+            icon: '📻',
+            count: 1,
+            description: 'Listen to radio stations worldwide',
+            links: [
+                { name: 'RADIO GARDEN', url: 'https://www.radio.garden/', description: 'Radio Garden', warning: null }
             ]
         },
         {
             id: 'sports',
-            name: 'Sports',
+            name: 'SPORT WATCHER LINK',
             icon: '⚽',
             count: 2,
             description: 'Watch live sports events and matches',
             links: [
-                { name: 'Live Sports', url: '#', description: 'Live matches' },
-                { name: 'Sports Replays', url: '#', description: 'Game highlights' }
+                { name: 'EUROVISION SPORT', url: 'https://eurovisionsport.com/en', description: 'Eurovision sports', warning: null },
+                { name: 'RIVESTREAM (LIVE SPORT)', url: 'https://rivestream.org/livesports', description: 'Rivestream live sports', warning: null }
+            ]
+        },
+        {
+            id: 'youtube',
+            name: 'ALTERNATIVE YOUTUBE',
+            icon: '📹',
+            count: 1,
+            description: 'Alternative YouTube platforms',
+            links: [
+                { name: 'INVIDIOUS', url: 'https://inv.nadeko.net/', description: 'Invidious YouTube', warning: null }
+            ]
+        },
+        {
+            id: 'soundboards',
+            name: 'SOUNDBOARDS',
+            icon: '🔊',
+            count: 3,
+            description: 'Fun soundboards and meme sounds',
+            links: [
+                { name: '101SOUNDBOARD', url: 'http://101soundboards.com', description: '101 soundboards', warning: '⚠ WARNING: HTTP, No detected malware' },
+                { name: 'FREE MEME SOUNDBOARD', url: 'https://filme.imyfone.com/soundboards/meme', description: 'Free meme sounds', warning: null },
+                { name: 'MEME SOUNDBOARD', url: 'https://www.tynker.com/community/projects/play/meme-soundboard/62f1ae42667c79348823eee8/', description: 'Meme soundboard', warning: null }
             ]
         }
     ];
@@ -234,9 +315,16 @@ function renderCategoryLinks(category) {
         const linkCard = document.createElement('div');
         linkCard.className = 'link-card';
         linkCard.style.animationDelay = `${index * 0.1}s`;
+        
+        let warningHtml = '';
+        if (link.warning) {
+            warningHtml = `<div class="link-warning">${link.warning}</div>`;
+        }
+        
         linkCard.innerHTML = `
             <h4>${link.name}</h4>
             <p>${link.description}</p>
+            ${warningHtml}
             <a href="${link.url}" class="btn btn-primary" target="_blank">
                 <span class="btn-icon">🔗</span>
                 Visit Site
