@@ -1,5 +1,7 @@
 // ULTIMATE UNBLOCKER - Main JavaScript
 
+// CORE LOGIC & FUNCTIONALITY
+
 // Global Variables
 let currentSection = 'home';
 let comments = [];
