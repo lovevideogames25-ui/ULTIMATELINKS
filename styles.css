@@ -120,6 +120,22 @@ body {
     color: #e94560;
 }
 
+.nav-link[href*="github"] {
+    color: #6cc644;
+    font-weight: 600;
+    border: 1px solid #6cc644;
+    border-radius: 20px;
+    padding: 8px 16px;
+    transition: all 0.3s ease;
+}
+
+.nav-link[href*="github"]:hover {
+    background: #6cc644;
+    color: #ffffff;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(108, 198, 68, 0.3);
+}
+
 .nav-link::after {
     content: '';
     position: absolute;
