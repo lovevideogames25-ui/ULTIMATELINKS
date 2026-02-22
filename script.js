@@ -32,7 +32,7 @@ function initializeApp() {
     // Add scroll effects
     initializeScrollEffects();
     
-    console.log('ULTIMATE UNBLOCKER - Initialized successfully!');
+    console.log('ULTIMATELINKS - Initialized successfully!');
 }
 
 // Loading Screen
@@ -378,7 +378,7 @@ function searchCategories(query) {
 // Comments Functions
 function loadComments() {
     // Load comments from localStorage
-    const storedComments = localStorage.getItem('ultimateUnblocker_comments');
+    const storedComments = localStorage.getItem('ultimateLinks_comments');
     if (storedComments) {
         try {
             comments = JSON.parse(storedComments);
@@ -497,7 +497,7 @@ function likeComment(commentId) {
 // Save Comments
 function saveComments() {
     try {
-        localStorage.setItem('ultimateUnblocker_comments', JSON.stringify(comments));
+        localStorage.setItem('ultimateLinks_comments', JSON.stringify(comments));
     } catch (error) {
         console.error('Error saving comments:', error);
     }
@@ -566,7 +566,7 @@ function showNotification(message, type = 'info') {
 function shareLink() {
     if (navigator.share) {
         navigator.share({
-            title: 'ULTIMATE UNBLOCKER',
+            title: 'ULTIMATELINKS',
             text: 'Check out this amazing collection of verified links!',
             url: window.location.href
         });
@@ -623,5 +623,5 @@ window.addEventListener('error', function(e) {
 // Performance Monitoring
 window.addEventListener('load', function() {
     console.log('Page loaded successfully');
-    console.log('ULTIMATE UNBLOCKER - All systems operational');
+    console.log('ULTIMATELINKS - All systems operational');
 });
